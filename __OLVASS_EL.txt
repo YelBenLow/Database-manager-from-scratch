@@ -1,0 +1,69 @@
+Ez a szoftver egy GUI felülettel rendelkező adatbáziskezelő szoftver,
+ahol az adatbázisok egyenlőek a mappákkal,
+     a táblák egyenlőek .txt fájlokkal.
+-> Ezáltal a táblák tartalmát manuálisan is fel lehet tölteni, módosítani.
+
+-- A MŰKÖDÉSHEZ KELLŐ MODULOK/KÖNYVTÁRAK --
+ 1. customtkinter
+ 2. packaging
+ 3. Pillow
+
+Elvileg ennyi. Ha a szoftver elindítása sikertelen, akkor lehet kihagytam a felsorolásomból valamilyen könyvtárat.
+Ha így lenne, akkor kicsit kínosan kérlek meg rá arra, hogy a Database.py fájlt egy pythonos környezetben nyisd meg,
+ahol a problémát fogod látni. pl.: PyCharm
+
+-- A MŰKÖDÉSHEZ KELLŐ MODULOK/KÖNYVTÁRAK TELEPÍTÉSE --
+A pip csomagkezelővel a legegyszerűbb, ha neked nincs feltelepítve, van fent 100+ youtube tutorial.
+
+ 1. pip install customtkinter
+ 2. pip install packaging
+ 3. pip install Pillow
+
+
+-- A PROJEKT ALATT FELHASZNÁLT KÖNYVTÁRAK / MODULOK LISTÁJA --
+   1. customtkinter
+   2. tkinter, tkinter -> ttk
+   3. PIL -> Image, ImageTk
+   4. datetime
+   5. os
+   6. shutil
+   7. subprocess
+   8. time
+
+
+Ezt a projektet egy 1920x1080-as monitorral készítettem.
+Ha kisebb monitorral rendelkezel, és ha vannak részek, ahol a szöveg eltűnik,
+akkor ajánlott teljes ablakban használni a szoftvert.
+
+Ha adatbázisokkal szeretnéd tesztelni a szoftvert,
+akkor nyisd meg a _generate_test_databases.py fájlt.
+Ez legenerál számodra néhány adatbázist, néhány táblával, teljesen random adatokkal.
+
+ELINDÍTÁS: A szoftvert a Database.py megnyitásával lehet elindítani.
+
+HA ELAKADSZ VALAHOL: Kattints a segítség gombra a szoftveremben, ami teljesen jobb oldalt található.
+
+--ISMERT LIMITEK--
+  1. 9db adatbázis megjelenítésére képes jelenleg a programom. (Idő hiányában a végtelenre bővítés nem valósult meg.)
+  2. 10db tábla megjelenítésére képes jelenleg a programom, per adatbázis. (Idő hiányában a végtelenre bővítés nem valósult meg.)
+
+  -- megjegyzés --
+  Ha több adatbázist, táblát hozol létre mint a limit, nem lesz hiba, csak elcsúszva fog megjelenni a vizualizálás.
+
+
+--ISMERT LOGIKAI HIBÁK--
+  1. Lekérdezésnél csak előre lehet írni az OR feltételt, majd utána az AND feltételeket.
+   pl.: Hibát kapsz ennél: (feltétel1 OR feltétel2) AND (feltétel1 OR feltétel2);
+	De ennél nem: (feltétel1 OR feltétel2 OR feltétel3) AND feltétel4 AND feltétel5;
+  
+  Ennek a fixálása szintén az idő hiányában nem valósult meg.
+
+
+VISZONT kérésre javíthatom a hibákat, ha a szoftver bármely célú használata a cél.
+Ezesetben kérlek olvasd el a licenszemet, amit a __Béna licensz.txt fájlban találsz.
+
+
+Remélem elnyeri a zsűrinek a tetszését a szoftverem!
+Bevallom, izgulok egy kicsit, mivel ez az első olyan projektem, ahol 1000+ sor kódot írtam.
+
+KÉSZÍTETTE: YelBenlow.
