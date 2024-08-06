@@ -1,6 +1,6 @@
 # Database-Manager from Scratch
 
-##(The github falsely recognizes the programming language in this repo, I think it's because the .exe file, or I don't know. But to make sure, it's written in python.)
+##The github falsely recognizes the programming language in this repo, I think it's because the .exe file, or I don't know. But to make sure, it's written in python.
 ## English version below!
 Ezt a projektet egy régi emlékem inspirálta, amit évekkel ezelőtt konzolos verzióban programoztam le, majd később GUI verzióban, ami ebben a repoban is benne van.
 
