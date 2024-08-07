@@ -1,9 +1,9 @@
 # HU: Adatbázis-kezelő teljesen a nulláról
-### (A github hibásan észlelte fel a programozási nyelvet, szerintem a .exe fájl okozza ezt, vagy nem tudom. De hogy biztosra menjek, ez a projekt 100% python nyelven lett írva.)
+### (A program 100%-ban python nyelven íródott, a Github hibásan ismeri fel a .exe fájl miatt.)
 # EN: Database-Manager from Scratch
-### (The github falsely recognizes the programming language in this repo, I think it's because the .exe file, or I don't know. But to make sure, this project is 100% written in python.)
+### (The program is 100% written in Python, GitHub incorrectly recognizes it due to the .exe file.)
 
-## English version below!
+## English version below!!
 Ezt a projektet egy régi emlékem inspirálta, amit évekkel ezelőtt konzolos verzióban programoztam le, majd később GUI verzióban, ami ebben a repoban is benne van.
 
 Tehát, ez egy olyan adatbázis-kezelő "szoftver", mely GUI felülettel rendelkezik, és amit teljesen a nulláról írtam meg.
