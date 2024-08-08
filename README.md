@@ -21,7 +21,7 @@ HA teszt-adatbázisokkal szeretnéd tesztelni a szoftveremet, akkor indítsd el 
 
 Ajánlott 1920x1080-as vagy nagyobb monitorral futtatni a kódot a torzulások elkerülése érdekében!
 
-!! Mivel hobbi-projekt és tanulási céllal készítettem ezt a "szoftvert", ezért lesznek a kódban otpimalizálatlan, miaf*sz? részek. !!
+!! Mivel hobbi-projekt és tanulási céllal készítettem ezt a "szoftvert", ezért lesznek a kódban optimalizálatlan, miaf*sz? részek. !!
 
 ## NEM FIXÁLT (LOGIKAI) HIBA(-ÁK)
 Lekérdezésnél csak előre lehet írni az OR feltételt, majd utána az AND feltételeket.<br>
